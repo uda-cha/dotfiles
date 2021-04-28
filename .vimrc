@@ -12,3 +12,4 @@ set hlsearch
 set list
 set listchars=tab:≫-,trail:_,eol:↲,extends:≫,precedes:≪,nbsp:%
 let g:netrw_altv=1
+let g:netrw_liststyle=3
