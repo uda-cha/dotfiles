@@ -3,7 +3,8 @@
 TMUX_VER=`tmux -V | awk '{print $2}' | awk -F. '{print $1}'`
 
 if [ "$TMUX_VER" != "1" ] \
-  && [ "$TMUX_VER" != "2" ]; then
+  && [ "$TMUX_VER" != "2" ] \
+  && [ "$TMUX_VER" != "3" ]; then
   echo "unknown tmux version"
   exit 1
 fi
