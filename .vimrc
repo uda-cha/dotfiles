@@ -1,12 +1,10 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-  Plugin 'VundleVim/Vundle.vim'
-  Plugin 'ekalinin/Dockerfile.vim'
-  Plugin 'preservim/nerdtree'
-call vundle#end()
+call plug#begin('~/.vim/plugged')
+  Plug 'ekalinin/Dockerfile.vim'
+  Plug 'preservim/nerdtree'
+call plug#end()
 
 filetype plugin indent on
 
