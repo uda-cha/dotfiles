@@ -7,6 +7,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'itchyny/lightline.vim'
   Plug 'tpope/vim-fugitive'
   Plug 'Yggdroot/indentLine'
+  Plug '~/.fzf'
+  Plug 'junegunn/fzf.vim'
 call plug#end()
 
 filetype plugin indent on

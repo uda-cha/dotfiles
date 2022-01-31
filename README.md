@@ -2,6 +2,10 @@
 
 ## .vimrc
 
+### Dependencies
+
+* [fzf](https://github.com/junegunn/fzf#using-git) installed via git
+
 ```sh
 curl https://raw.githubusercontent.com/uda-cha/dotfiles/master/bin/install_vimrc.sh | sh
 ```
