@@ -21,3 +21,13 @@ vim +'PlugInstall --sync' +qa
 ```sh
 curl https://raw.githubusercontent.com/uda-cha/dotfiles/master/bin/install_tmux_conf.sh | sh
 ```
+
+## asdf
+
+### Dependencies
+
+* [asdf](http://asdf-vm.com/guide/getting-started.html)
+
+```sh
+curl https://raw.githubusercontent.com/uda-cha/dotfiles/master/bin/install_asdf_conf.sh | sh
+```
